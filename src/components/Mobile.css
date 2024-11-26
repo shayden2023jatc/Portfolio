@@ -1,0 +1,18 @@
+@media (max-width: 600px) {
+    .icon_container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:600px) {
+
+    .energies_main,
+    .home_main,
+    .all_energy_main,
+    .about_main {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 8cap;
+    }
+}

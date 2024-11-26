@@ -1,0 +1,437 @@
+body {
+  background-color: rgba(243, 239, 235, 0.849);
+  z-index: 3;
+  display: grid;
+}
+
+.home_main {
+  background-color: white;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 5%;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 8cap;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.energies_main {
+  background-color: white;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 5%;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 8cap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.all_energy_main {
+  background-color: white;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-top: 10%;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 8cap;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.energy_name {
+  color: #005600;
+  font-size: 1.3em;
+  color: #005600;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.energy_name:hover {
+  text-decoration: none;
+  color: rgb(240, 206, 114)
+}
+
+
+.heading_energy {
+  font-size: calc(70px + 1vw);
+  font-family: 'Times New Roman', Times, serif;
+  background: -webkit-linear-gradient(#7bff00, #031602);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  grid-column: 1/4;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+
+.HomeList {
+  font-size: calc(5px + 1vw);
+}
+
+hr {
+  height: 5px;
+  width: 100%;
+  grid-column: 1/4;
+  background-color: black;
+}
+
+.paragraph_heading {
+  font-weight: 600;
+  font-size: calc(10px + 2vw);
+  font-family: "Kaushan Script", cursive;
+  font-weight: 600;
+  font-style: normal;
+  color: black;
+  text-align: center;
+
+}
+
+
+/* .big_box {ol 
+  height: 20000px;
+  width: auto;
+} */
+
+.whatGE {
+  display: flex;
+  align-content: space-around;
+  font-size: calc(1px + 1vw);
+  font-weight: 1000;
+  font-family: 'Times New Roman', Times;
+  margin: 5%;
+  padding: 3%;
+  background-color: rgb(247, 227, 201);
+  border-radius: 25px;
+  flex-wrap: wrap;
+}
+
+.whatGE>p {
+  font-size: 1000px;
+  font-weight: 100;
+  color: rgb(43, 54, 56);
+
+}
+
+.beneficial_graph {
+  grid-row: 4/4;
+  grid-column: 2/2;
+}
+
+.geusa {
+  grid-column: 1/4;
+  grid-row: 3/3;
+  font-size: calc(30px + 1vw);
+  font-weight: 900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 2px;
+  align-items: center;
+}
+
+.geusa>p {
+  font-size: calc(5px + 1vw);
+  font-weight: 100;
+  color: rgb(43, 54, 56);
+}
+
+.geusa>ol {
+  font-size: calc(5px + 1vw);
+  font-weight: 1000;
+  color: rgb(43, 54, 56);
+}
+
+.energy_box {
+  background-color: black;
+  color: white;
+
+}
+
+/* Learn More Link */
+.learn_more {
+  color: rgb(30, 87, 4);
+  font-weight: 800;
+}
+
+/*Energy Page boxes*/
+.solar_energy_box {
+  width: calc(100px + 10vw);
+  height: calc(100px + 10vw);
+  border-radius: 25px;
+  background-color: #005600;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 600;
+  font-style: normal;
+  margin: 10px;
+  background-image: url("../public/images/Edited_media/Solar5.jpg");
+  background-size: cover;
+}
+
+.wind_energy_box {
+  width: calc(100px + 10vw);
+  height: calc(100px + 10vw);
+  border-radius: 25px;
+  background-color: #005600;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 600;
+  font-style: normal;
+  margin: 10px;
+  background-image: url("../public/images/wind_box.jpg");
+  background-size: cover
+}
+
+.geo_energy_box {
+  width: calc(100px + 10vw);
+  height: calc(100px + 10vw);
+  border-radius: 25px;
+  background-color: #005600;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 600;
+  font-style: normal;
+  margin: 10px;
+  background-image: url("../public/images/geo_box.png");
+  background-size: cover;
+}
+
+.bio_energy_box {
+  width: calc(100px + 10vw);
+  height: calc(100px + 10vw);
+  border-radius: 25px;
+  background-color: #005600;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 600;
+  font-style: normal;
+  margin: 10px;
+  background-image: url("../public/images/bio_box_image.jpg");
+  background-size: cover;
+}
+
+
+
+
+/* -----Click animation------*/
+
+@import url('https://fonts.googleapis.com/css?family=Mukta:700');
+
+button.link {
+  position: sticky;
+  align-items: center;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+
+  &.style-7 {
+    width: 12rem;
+    height: auto;
+
+    .circle {
+      transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+      position: relative;
+      display: block;
+      margin: 0;
+      width: 3rem;
+      height: 3rem;
+      background: #000;
+      border-radius: 1.625rem;
+
+      .icon {
+        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: #fff;
+
+        &.arrow {
+          transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+          left: 0.625rem;
+          width: 1.125rem;
+          height: 0.125rem;
+          background: none;
+
+          &::before {
+            position: absolute;
+            content: '';
+            top: -0.25rem;
+            right: 0.0625rem;
+            width: 0.625rem;
+            height: 0.625rem;
+            border-top: 0.125rem solid #fff;
+            border-right: 0.125rem solid #fff;
+            transform: rotate(45deg);
+          }
+        }
+      }
+    }
+
+    .button-text {
+      transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0.75rem 0;
+      margin: 0 0 0 1.85rem;
+      color: #ffffff;
+      font-size: calc(10px + 1vw);
+      text-wrap: wrap;
+      font-weight: 700;
+      line-height: 1.6;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+  &:hover {
+    .circle {
+      width: 100%;
+
+      .icon {
+        &.arrow {
+          background: #fff;
+          transform: translate(1rem, 0);
+        }
+      }
+    }
+
+    .button-text {
+      color: #fff;
+    }
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 40s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(100px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.icon_container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+
+@media (max-width: 600px) {
+  .icon_container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .icons {
+    width: 5em;
+    height: 5em;
+  }
+
+  .energy_name {
+    display: none;
+  }
+
+  .icon {
+    width: 10%;
+    margin: 0%;
+  }
+
+  .icon>a {
+    font-size: .9em;
+    color: #005600;
+    font-weight: 700;
+    text-decoration: none;
+
+  }
+
+  .icon>a:hover {
+    text-decoration: none;
+    color: rgb(240, 206, 114)
+  }
+
+  .icon_container>p:hover {
+    text-decoration: none;
+    color: rgb(240, 206, 114)
+  }
+}
+
+/* ----not fire fox---- */
+@keyframes falling {
+
+  0% {
+    transform: translate3d(300, 0, 0) rotate(0deg);
+  }
+
+  100% {
+    transform: translate3d(-350px, 700px, 0) rotate(90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes falling3 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(-20deg);
+  }
+
+  100% {
+    transform: translate3d(-230px, 640px, 0) rotate(-70deg);
+    opacity: 0;
+  }
+}
+
+@keyframes falling2 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(90deg);
+  }
+
+  100% {
+    transform: translate3d(-400px, 680px, 0) rotate(0deg);
+    opacity: 0;
+  }
+}
