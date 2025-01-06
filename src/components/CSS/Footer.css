@@ -1,0 +1,36 @@
+/*CSS for Footer*/
+footer {
+    background-color: #0f183a;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+
+footer>h1 {
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+
+footer>h2 {
+    font-size: small;
+}
+
+footer>p {
+    font-size: 12px;
+}
+
+
+a:hover {
+    color: #7425fd;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

@@ -3,8 +3,8 @@
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet';
-import '../components/About.css';
-import '../components/Mobile.css';
+import '../components/CSS/About.css';
+import '../components/CSS/Mobile.css';
 
 
 

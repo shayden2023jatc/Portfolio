@@ -1,32 +1,84 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {BrowserRouter, Routes, Route, useLocation} from "react-router-dom";
+import { AnimatePresence, motion } from "motion/react"
 import './App.css';
-// import './assets/css/fonts.css';
 import Home from './pages/Home';
-import Energies from './pages/Energies';
-import Wind from './pages/Wind';
-import Solar from './pages/Solar';
-import Geo from './pages/Geo';
-import Bio from './pages/Bio';
-import About from "./pages/About";
+import Service from './pages/Service';
+import Leadership from './pages/Leadership';
+import Scholarship from './pages/Scholarship';
+
+
+
+/*function AnimatedRoutes(){
+  const location= useLocation();
+
+  return(
+      <AnimatePresence mode="wait">
+        <Routes location ={location} key={location.pathname}>
+          <Route
+            path="/home"
+            element={
+            <PageWrapper>
+              <Home/>
+            </PageWrapper>
+            }
+          />
+          <Route
+              path="/Service"
+              element={
+                <PageWrapper>
+                  <Service/>
+                </PageWrapper>
+              }
+          />
+          <Route
+              path="/Leadership"
+              element={
+                <PageWrapper>
+                  <Leadership/>
+                </PageWrapper>
+              }
+          />
+          <Route
+              path="/Scholarship"
+              element={
+                <PageWrapper>
+                  <Scholarship/>
+                </PageWrapper>
+              }
+          />
+        </Routes>
+      </AnimatePresence>
+  );
+}
+
+function PageWrapper({children})
+{
+  return(
+      <motion.div
+        initial={{opacity:0, y: 20}}
+        animate={{opacity: 1, y: 0}}
+        exit={{opacity: 0, y:-20}}
+        transition={{duration:2}}
+        >{children}
+      </motion.div>
+  );
+}*/
 
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/Energies" element={<Energies />} />
-          <Route path="/Wind" element={<Wind />} />
-          <Route path="/Solar" element={<Solar />} />
-          <Route path="/Geo" element={<Geo />} />
-          <Route path="/Bio" element={<Bio />} />
-          <Route path="/About" element={<About />} />
-          {/* <Route path="*" element={<NoPage />} /> */}
-        </Routes>
-      </BrowserRouter>
-    </div >
+      <div className="App">
+          <BrowserRouter>
+              <Routes>
+                  <Route path="/" element={<Home/>}/>
+                  <Route path="/home" element={<Home/>}/>
+                  <Route path="/Service" element={<Service/>}/>
+                  <Route path="/Leadership" element={<Leadership/>}/>
+                  <Route path="/Scholarship" element={<Scholarship/>}/>
+                  {/* <Route path="*" element={<NoPage />} /> */}
+              </Routes>
+          </BrowserRouter>
+      </div>
   );
 }
 

@@ -1,0 +1,129 @@
+
+
+.all_energy_main {
+    background-color: #000000;
+    color:#888;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: calc(30% + 18px);
+    padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.all_energy_main>li {
+    text-align: justify;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#tag-content {
+    display: flex;
+    background-color: #000000;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+#info_section {
+    display: flex;
+
+
+}
+
+#media {
+    margin: 5%;
+    align-content: center;
+    width: calc(100px + 2vw);
+    height: calc(100px + 2vh);
+}
+
+.whiteContainer{
+    color:black;
+}
+
+.blackContainer{
+    color:lightgray;
+}
+
+.section .vhcf-row {
+    width: 100%;
+    display: block;
+
+}
+
+.section .vhcf-row .vhcf-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: right;
+
+
+}
+
+.section .vhcf-row .vhcf-column .vhcf-module {
+    width: 50%;
+    padding: 5%;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.vhcf-module img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+
+
+}
+
+.vhcf-row {
+    background-color: #000000;
+}
+
+@media (max-width:600px) {
+    .section .vhcf-row .vhcf-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .all_energy_main {
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 20%;
+    }
+
+
+
+    .section .vhcf-row .vhcf-column .vhcf-module {
+        width: 90%;
+    }
+}
+
+/* geo table css */
+.Geo_stat_table,
+th,
+td {
+    border: 1px solid rgb(30, 87, 4);
+    border-width: 5px;
+    padding: 5px;
+    margin-top: 20px
+}
+
+  
